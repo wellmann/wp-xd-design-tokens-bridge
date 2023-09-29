@@ -1,0 +1,23 @@
+{
+  "name": "@wellmann/wp-xd-design-tokens-bridge",
+  "version": "0.1.0",
+  "description": "Inject the Adobe XD developer export variables into theme.json",
+  "scripts": {
+    "test": "jest ./tests/*.test.js"
+  },
+  "author": {
+    "name": "Kevin Wellmann",
+    "url": "http://kevin.wellmann.io"
+  },
+  "private": true,
+  "bin": {
+    "inject-design-tokens": "./cli.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "css": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

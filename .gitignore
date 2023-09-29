@@ -1,0 +1,9 @@
+.idea
+.vscode
+dist
+node_modules
+vendor
+Thumbs.db
+.DS_Store
+_theme.json
+theme.json
